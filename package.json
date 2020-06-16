@@ -2,7 +2,9 @@
   "name": "mean-project",
   "version": "0.0.0",
   "homepage": "http://hellojt9040.github.io/MEAN-Project-FrontEnd",
-  "scripts": {
+  "scripts": 
+  {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
